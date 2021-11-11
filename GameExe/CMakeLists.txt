@@ -2,8 +2,8 @@ project(GameExe)
 
 add_executable(GameExe
         src/main.cpp
-        src/Mono.cpp
-        )
+        src/Game.cpp
+        src/CSBind.cpp)
 
 target_include_directories(GameExe PUBLIC include PRIVATE src ${CMAKE_SOURCE_DIR}/dependencies/mono/include/mono-2.0)
 

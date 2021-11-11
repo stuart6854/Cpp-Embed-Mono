@@ -7,8 +7,9 @@
 
 #include "Base.h"
 
-namespace Engine {
+namespace Engine
+{
     ENGINE_API void InitEngine();
-}// namespace Engine
+}  // namespace Engine
 
-#endif//_EMBED_MONO_ENGINE_H
+#endif  //_EMBED_MONO_ENGINE_H

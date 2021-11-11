@@ -5,8 +5,7 @@
 #include "Engine.h"
 #include <iostream>
 
-namespace Engine {
-    void InitEngine() {
-        std::cout << "Initialising Engine..." << std::endl;
-    }
-}// namespace Engine
+namespace Engine
+{
+    void InitEngine() { std::cout << "Initialising Engine..." << std::endl; }
+}  // namespace Engine

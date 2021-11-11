@@ -1,10 +1,14 @@
 #include <iostream>
 
+// Game includes
+#include "Game.h"
+
+// Engine Includes
 #include "Application.h"
 #include "Engine.h"
-#include "Mono.h"
 
-int main() {
+int main()
+{
     std::cout << "Hello, World!" << std::endl;
 
     Engine::InitEngine();
@@ -12,7 +16,13 @@ int main() {
     Engine::Application app;
     app.Run();
 
-    Engine::CreateDomain();
+    Game::Game game;
+
+    while(true)
+    {
+        game.keyEvent('f');
+        game.tick();
+    }
 
     return 0;
 }

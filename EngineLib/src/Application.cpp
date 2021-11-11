@@ -6,9 +6,7 @@
 
 #include <iostream>
 
-namespace Engine {
-    void Application::Run() {
-
-        std::cout << "Hello World" << std::endl;
-    }
-}// namespace Engine
+namespace Engine
+{
+    void Application::Run() { std::cout << "Hello World" << std::endl; }
+}  // namespace Engine

@@ -7,13 +7,15 @@
 
 #include "Base.h"
 
-namespace Engine {
-    class ENGINE_API Application {
+namespace Engine
+{
+    class ENGINE_API Application
+    {
     public:
         void Run();
 
     private:
     };
-}// namespace Engine
+}  // namespace Engine
 
-#endif//_EMBED_MONO_APPLICATION_H
+#endif  //_EMBED_MONO_APPLICATION_H
