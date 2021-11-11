@@ -2,6 +2,7 @@
 
 #include "Application.h"
 #include "Engine.h"
+#include "Mono.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -10,6 +11,8 @@ int main() {
 
     Engine::Application app;
     app.Run();
+
+    Engine::CreateDomain();
 
     return 0;
 }
